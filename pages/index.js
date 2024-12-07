@@ -10,7 +10,7 @@ export default function HomePage() {
   const [depositAmount, setDepositAmount] = useState(""); // Separate state for deposit amount
   const [withdrawAmount, setWithdrawAmount] = useState(""); // Separate state for withdraw amount
 
-  const contractAddress = "0xe7f1725E7734CE288F8367e1Bb143E90bb3F0512";
+  const contractAddress = "0x5fbdb2315678afecb367f032d93f642f64180aa3";
   const atmABI = atm_abi.abi;
 
   const getWallet = async () => {
